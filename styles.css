@@ -100,7 +100,7 @@ footer {
   color: #f65282;
 }
 
-.current-temperature-icon {
+#current-temperature-icon {
   position: relative;
   top: -8px;
   font-size: 60px;
