@@ -100,13 +100,6 @@ footer {
   color: white;
 }
 
-#current-temperature-icon {
-  position: relative;
-  top: -8px;
-  font-size: 60px;
-  margin-right: 10px;
-}
-
 .current-temperature-value {
   font-size: 80px;
   font-weight: bold;
@@ -118,6 +111,12 @@ footer {
   position: relative;
   top: -38px;
   color: white;
+}
+
+#current-temperature-icon {
+  position: relative;
+  font-size: 60px;
+  margin-right: 10px;
 }
 
 #description-weather {
