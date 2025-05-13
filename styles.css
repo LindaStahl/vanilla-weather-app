@@ -97,7 +97,7 @@ footer {
 }
 
 .current-details strong {
-  color: #f65282;
+  color: white;
 }
 
 #current-temperature-icon {
@@ -123,4 +123,5 @@ footer {
 #description-weather {
   color: white;
   font-weight: bold;
+  text-transform: capitalize;
 }
