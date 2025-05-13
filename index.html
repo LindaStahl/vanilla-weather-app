@@ -11,7 +11,7 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <title>My weather application</title>
+    <title>My weather App</title>
   </head>
   <body>
     <h1 class="h1-title">The Weather App</h1>
@@ -33,19 +33,21 @@
           <div>
             <h1 class="current-city" id="current-city">Paris</h1>
             <p class="current-details">
-              <span id="current-date"></span>, Humidity:
-              <strong><span id="humidity">87</span>%</strong>, Wind:
-              <strong><span id="wind">7.2</span>km/h</strong>
+              <span id="time"></span>, Humidity:
+              <strong><span id="humidity"></span></strong>, Wind:
+              <strong><span id="wind"></span></strong>
             </p>
           </div>
           <div class="condition-container">
-            <span id="current-temperature-icon">☀️</span><br />
-            <span id="description-weather">moderate rain </span>
+            <span id="current-temperature-icon"></span><br />
+            <span id="description-weather"></span>
           </div>
           <div class="current-temperature">
-            <span class="current-temperature-value" id="current-temperature"
-              >24</span
-            ><span class="current-temperature-unit">°C</span>
+            <span
+              class="current-temperature-value"
+              id="current-temperature"
+            ></span
+            ><span class="current-temperature-unit"></span>
           </div>
         </div>
       </main>
@@ -57,5 +59,5 @@
       </footer>
     </div>
   </body>
-  <script src="src/index.js"></script>
+  <script src="index.js"></script>
 </html>
