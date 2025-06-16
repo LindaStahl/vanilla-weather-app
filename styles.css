@@ -79,6 +79,11 @@ footer {
   border-radius: 5px;
 }
 
+.search-button :hover {
+  cursor: pointer;
+  color: red;
+}
+
 .current-temperature {
   font-size: 48px;
 }
