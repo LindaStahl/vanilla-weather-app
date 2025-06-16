@@ -77,11 +77,12 @@ footer {
   padding: 20px;
   line-height: 1;
   border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
-.search-button :hover {
-  cursor: pointer;
-  color: red;
+.search-button:hover {
+  opacity: 0.5;
 }
 
 .current-temperature {
